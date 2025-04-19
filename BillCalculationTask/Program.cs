@@ -19,7 +19,13 @@
             // 2: 10 people
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
-
+Console.WriteLine("How many people are in the group?")
+    int numOfPeople = Console.ReadLine()
+    double charge = numOfPeople * 15
+    if (numOfPeople > 5){
+        charge = charge - 5
+        }
+            Console.WriteLine("The total charge is £" + charge)
         }
     }
 }
