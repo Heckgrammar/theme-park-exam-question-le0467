@@ -20,7 +20,7 @@
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
 Console.WriteLine("How many people are in the group?");
-    int numOfPeople = Console.ReadLine();
+    int numOfPeople = Convert.ToInt32(Console.ReadLine());
     double charge = numOfPeople * 15;
     if (numOfPeople > 5){
         charge = charge - 5;
